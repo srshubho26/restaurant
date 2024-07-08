@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn{
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 24px;
+    padding: 16px 24px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+#hero{
+    background: linear-gradient(-45deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 736px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content{
+    width: 818px;
+    text-align: center;
+}
+
+#hero .hero-content .sub-title{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    opacity: .8;
+}
+
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 24px 0;
+}
+
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    opacity: .7;
+}
+
+#card-box{
+    text-align: center;
+    padding: 120px 0;
+}
+
+#card-box .container{
+    width: 884px;
+    margin: 0 auto;
+}
+
+#card-box .container .title{
+    width: 462px;
+    margin: 0 auto;
+}
+
+#card-box .container .title p{
+    color: rgb(16, 16, 16);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    opacity: .6
+}
+
+#card-box .container .title h2{
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 12px 0 32px 0;
+}
+
+#card-box .container .card-wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+#card-box .container .card-wrap .single-card img{
+    width: 100%;
+    height: auto;
+}
+
+#card-box .container .card-wrap .single-card span{
+    color: rgb(16, 16, 16);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 11px 21px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    margin: 18px 0;
+}
+
+#card-box .container .card-wrap .single-card h3{
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+#card-box .container .card-wrap .single-card p{
+    color: rgb(16, 16, 16);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    opacity: .7;
+    margin: 16px 0;
+}
+
+#social{
+    display: flex;
+}
+
+#social .leftImg{
+    flex-basis: 50%;
+    display: flex;
+}
+
+#social .leftImg img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#social .right, #follow{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#social .right .titleWrap, #follow .titleWrap{
+    padding: 0 50px;
+}
+
+#social .right h2, #follow h2{
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51px;
+}
+
+#social .right p, #follow p{
+    color: rgb(16, 16, 16);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 20px 0;
+    opacity: .6;
+}
+
+#social .right h4, #follow h4{
+    color: rgb(16, 16, 16);
+    font-size: 25px;
+    font-weight: 600;
+    margin: 30px 0;
+    line-height: 30px;
+    padding: 24px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+#social .right .socialWrap span, #follow .socialWrap span{
+    margin: 0 15px;
+}
+
+#follow{
+    padding: 100px 0;
+    background: linear-gradient(rgb(255 255 255 / 85%), rgb(255 255 255 / 85%)), url(../assets/social-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#follow .titleWrap{
+    width: 650px;
+    margin: 0 auto;
+    padding: 0;
+}
