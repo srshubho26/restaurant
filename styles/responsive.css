@@ -1,0 +1,68 @@
+@media only screen and (max-width: 992px){
+    #social .right .titleWrap, #follow .titleWrap {
+        padding: 0 10px;
+    }
+
+    #social .right h2, #follow h2 {
+        font-size: 30px;
+        line-height: 1em;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #hero{
+        height: auto;
+        padding: 60px 0;
+    }
+
+    #social .right, #follow {
+        padding: 50px 0;
+    }
+
+    #social .right h2, #follow h2 {
+        font-size: 27px;
+    }
+
+    #card-box .container .card-wrap .single-card h3 {
+        font-size: 22px;
+        line-height: 1em;
+    }
+
+    #social .right .socialWrap span, #follow .socialWrap span {
+        margin: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    #hero .hero-content .title {
+        font-size: 30px;
+        line-height: 1em;
+    }
+
+    #card-box .container .title h2 {
+        font-size: 22px;
+        line-height: 1em;
+    }
+
+    #card-box .container .card-wrap {
+        flex-wrap: wrap;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    #card-box .container .card-wrap .single-card{
+        flex-basis: 100%;
+    }
+
+    #social {
+        flex-wrap: wrap;
+    }
+    
+    #social .leftImg {
+        flex-basis: 100%;
+    }
+
+    #social .right, #follow {
+        flex-basis: 100%;
+    }
+}
