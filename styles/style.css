@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 .container{
     max-width: 100%;
     padding: 0 10px;
@@ -18,7 +22,6 @@
     padding: 16px 24px;
     background: rgb(82, 195, 3);
     color: rgb(255, 255, 255);
-    text-decoration: none;
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
@@ -83,7 +86,7 @@
 }
 
 #card-box .container .title p{
-    color: rgb(16, 16, 16);
+    color: #101010;
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
