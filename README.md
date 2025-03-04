@@ -1,2 +1,2 @@
 Live preview at 
-[https://github.com/shuvo22890/restaurant.git](https://shuvo22890.github.io/restaurant/)
+[https://github.com/srshubho26/restaurant.git](https://srshubho26.github.io/restaurant/)
